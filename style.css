@@ -1,0 +1,256 @@
+ul .nav-bar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 90px;
+  align-items: center;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding-bottom: 0;
+}
+
+.nav-bar {
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.nav-bar1 {
+  justify-content: right;
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin-right: 20px;
+  align-items: baseline;
+  flex-direction: row;
+  margin-bottom: auto;
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin;
+  margin-top: 0;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin;
+  margin-top: 0;
+}
+
+.part1,
+.container {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/melbourne.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.part1 .container-1 {
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Cambria, Cochin;
+}
+
+.item1 a {
+  background-color: crimson;
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin;
+}
+
+button,
+.item1 {
+  border-radius: 6px;
+  background-color: crimson;
+  padding: 15px;
+  font-weight: bold;
+  font-family: Cambria, Cochin;
+}
+
+.mid-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: auto;
+  font-family: Cambria, Cochin;
+}
+
+.mid-container {
+  display: flex;
+  flex-direction: 2 column;
+  gap: 20px;
+  max-width: auto;
+  border: solid lightgray 1px;
+  margin-top: 0;
+  padding: 10px;
+  font-family: Cambria, Cochin;
+}
+
+.mid-icon {
+  max-width: auto;
+  max-height: auto;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.title1 {
+  padding-left: 10px;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 0;
+  font-family: Cambria, Cochin;
+}
+
+.bottom {
+  text-align: center;
+  font-family: Cambria, Cochin;
+  margin-top: 30px;
+}
+
+.headline {
+  line-height: 7px;
+  font-size: 40px;
+}
+
+.item-1 {
+  font-size: 20px;
+}
+
+.bottom-part1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  column-gap: 10px;
+}
+
+.bottom-part1 .bottom-container1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/fitzroy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  min-height: 200px;
+  border: solid lightgray 3px;
+  margin-left: 5px;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin;
+}
+
+.bottom-container2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/st-kilda.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  min-height: 200px;
+  border: solid lightgray 3px;
+  background-color: lightgray;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin;
+}
+
+.bottom-container3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+    url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/central-business-district.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  min-height: 200px;
+  border: solid lightgray 3px;
+  background-color: lightgray;
+  margin-right: 5px;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin;
+}
+
+.bottom-1 {
+  font-size: 16px;
+  font-family: Cambria, Cochin;
+}
+
+.bottom3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  font-family: Cambria, Cochin;
+  font-size: medium;
+}
+
+.bottom-2 {
+  background-color: lightgray;
+  max-width: 1000px;
+  border: solid lightgray 3px;
+  margin-top: 0;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.bottom-3 {
+  background-color: lightgray;
+  max-width: 1000px;
+  border: solid lightgray 3px;
+  margin-top: 0;
+  margin-left: 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+.bottom-4 {
+  background-color: lightgray;
+  max-width: 1000px;
+  border: solid lightgray 3px;
+  margin-top: 0;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 5px;
+}
+
+.button1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Cambria, Cochin;
+}
+
+.item2,
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-family: Cambria, Cochin;
+}
